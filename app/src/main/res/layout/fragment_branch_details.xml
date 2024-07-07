@@ -1,0 +1,219 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="16dp"
+        android:background="#2E3B69"
+        android:gravity="center_vertical">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/label_branch_details"
+            android:textColor="#FFFFFF"
+            android:textSize="24sp"
+            android:textStyle="bold"
+            android:padding="8dp" />
+    </LinearLayout>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:padding="16dp">
+
+            <LinearLayout
+                android:id="@+id/branch_info_container"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textSize="20sp"
+                    android:textStyle="bold"
+                    android:paddingVertical="8dp"
+                    android:text="@string/label_city" />
+                <TextView
+                    android:id="@+id/SEHIR_B"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textSize="18sp"
+                    android:paddingVertical="4dp"
+                    android:text="Adana" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textSize="20sp"
+                    android:textStyle="bold"
+                    android:paddingVertical="8dp"
+                    android:text="@string/label_bank_branch" />
+                <TextView
+                    android:id="@+id/BANKA_SUBE_B"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textSize="18sp"
+                    android:paddingVertical="4dp"
+                    android:text="Merkez" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textSize="20sp"
+                    android:textStyle="bold"
+                    android:paddingVertical="8dp"
+                    android:text="@string/label_bank_type" />
+                <TextView
+                    android:id="@+id/BANKA_TIPI_B"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textSize="18sp"
+                    android:paddingVertical="4dp"
+                    android:text="Özel" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textSize="20sp"
+                    android:textStyle="bold"
+                    android:paddingVertical="8dp"
+                    android:text="@string/label_bank_code" />
+                <TextView
+                    android:id="@+id/BANK_KODU_B"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textSize="18sp"
+                    android:paddingVertical="4dp"
+                    android:text="123456" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textSize="20sp"
+                    android:textStyle="bold"
+                    android:paddingVertical="8dp"
+                    android:text="@string/label_address_name" />
+                <TextView
+                    android:id="@+id/ADRES_ADI_B"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textSize="18sp"
+                    android:paddingVertical="4dp"
+                    android:text="Merkez Adres" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textSize="20sp"
+                    android:textStyle="bold"
+                    android:paddingVertical="8dp"
+                    android:text="@string/label_address" />
+                <TextView
+                    android:id="@+id/ADRES_B"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textSize="18sp"
+                    android:paddingVertical="4dp"
+                    android:text="Adana Merkez" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textSize="20sp"
+                    android:textStyle="bold"
+                    android:paddingVertical="8dp"
+                    android:text="@string/label_postal_code" />
+                <TextView
+                    android:id="@+id/POSTA_KODU_B"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textSize="18sp"
+                    android:paddingVertical="4dp"
+                    android:text="01000" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textSize="20sp"
+                    android:textStyle="bold"
+                    android:paddingVertical="8dp"
+                    android:text="@string/label_online_offline" />
+                <TextView
+                    android:id="@+id/ON_OFF_LINE_B"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textSize="18sp"
+                    android:paddingVertical="4dp"
+                    android:text="Online" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textSize="20sp"
+                    android:textStyle="bold"
+                    android:paddingVertical="8dp"
+                    android:text="@string/label_on_off_site" />
+                <TextView
+                    android:id="@+id/ON_OFF_SITE_B"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textSize="18sp"
+                    android:paddingVertical="4dp"
+                    android:text="On Site" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textSize="20sp"
+                    android:textStyle="bold"
+                    android:paddingVertical="8dp"
+                    android:text="@string/label_regional_coordination" />
+                <TextView
+                    android:id="@+id/BOLGE_KOORDINATORLUGU_B"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textSize="18sp"
+                    android:paddingVertical="4dp"
+                    android:text="Adana Bölgesi" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textSize="20sp"
+                    android:textStyle="bold"
+                    android:paddingVertical="8dp"
+                    android:text="@string/label_nearest_atm" />
+                <TextView
+                    android:id="@+id/EN_YAKIM_ATM_B"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textSize="18sp"
+                    android:paddingVertical="4dp"
+                    android:text="Merkez ATM" />
+
+                <com.google.android.material.button.MaterialButton
+                    android:id="@+id/btn_show_in_map"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="16dp"
+                    android:text="@string/btn_show_on_map"
+                    android:textColor="@android:color/white"
+                    android:backgroundTint="#2E3B69"
+                    android:layout_gravity="center_horizontal" />
+            </LinearLayout>
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

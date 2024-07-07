@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="16dp"
+    android:layout_marginBottom="10dp"
+    android:background="?android:attr/selectableItemBackground">
+
+    <TextView
+        android:id="@+id/SEHIR"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textStyle="bold"
+        android:textSize="18sp"
+        android:textColor="?android:textColorPrimary"
+        android:padding="8dp"
+        android:text="Şehir" />
+
+    <TextView
+        android:id="@+id/BANKA_SUBE"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="16sp"
+        android:textColor="?android:textColorSecondary"
+        android:padding="8dp"
+        android:text="Banka Şubesi" />
+
+    <TextView
+        android:id="@+id/BANKA_TIPI"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="16sp"
+        android:textColor="?android:textColorSecondary"
+        android:padding="8dp"
+        android:text="Banka Tipi" />
+
+    <TextView
+        android:id="@+id/ADRES_ADI"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="16sp"
+        android:textColor="?android:textColorSecondary"
+        android:padding="8dp"
+        android:text="Adres Adı" />
+
+    <TextView
+        android:id="@+id/ADRES"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="16sp"
+        android:textColor="?android:textColorSecondary"
+        android:padding="8dp"
+        android:text="Adres" />
+
+
+
+</LinearLayout>

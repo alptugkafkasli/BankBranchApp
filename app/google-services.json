@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "181415720412",
+    "project_id": "bankaapp-5c75b",
+    "storage_bucket": "bankaapp-5c75b.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:181415720412:android:95d6c08c9398c155c38b19",
+        "android_client_info": {
+          "package_name": "com.alptugkafkasli.bankapp"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBdyJ5T-isOT0_UtZbvkJqSoXS4M-5NLAM"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

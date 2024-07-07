@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">BankApp</string>
+    <string name="label_branch_details">Branch Details</string>
+    <string name="label_city">City:</string>
+    <string name="label_bank_branch">Bank Branch:</string>
+    <string name="label_bank_type">Bank Type:</string>
+    <string name="label_bank_code">Bank Code:</string>
+    <string name="label_address_name">Address Name:</string>
+    <string name="label_address">Address:</string>
+    <string name="label_postal_code">Postal Code:</string>
+    <string name="label_online_offline">Online/Offline:</string>
+    <string name="label_on_off_site">On/Off Site:</string>
+    <string name="label_regional_coordination">Regional Coordination:</string>
+    <string name="label_nearest_atm">Nearest ATM:</string>
+    <string name="btn_show_on_map">Show on Map</string>
+</resources>

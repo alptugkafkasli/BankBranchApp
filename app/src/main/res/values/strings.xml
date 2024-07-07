@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">BankApp</string>
+    <string name="label_branch_details">Şube Detayları</string>
+    <string name="label_city">Şehir:</string>
+    <string name="label_bank_branch">Banka Şubesi:</string>
+    <string name="label_bank_type">Banka Tipi:</string>
+    <string name="label_bank_code">Banka Kodu:</string>
+    <string name="label_address_name">Adres Adı:</string>
+    <string name="label_address">Adres:</string>
+    <string name="label_postal_code">Posta Kodu:</string>
+    <string name="label_online_offline">Online/Offline:</string>
+    <string name="label_on_off_site">On/Off Site:</string>
+    <string name="label_regional_coordination">Bölge Koordinatörlüğü:</string>
+    <string name="label_nearest_atm">En Yakın ATM:</string>
+    <string name="btn_show_on_map">Haritada Göster</string>
+</resources>
